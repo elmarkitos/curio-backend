@@ -1,0 +1,40 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Variables de entorno y claves (NUNCA subir)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+serviceAccountKey*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Tests y cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Logs
+*.log
+
+# Editores y sistema
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Node (por si mezclas algo del frontend)
+node_modules/
